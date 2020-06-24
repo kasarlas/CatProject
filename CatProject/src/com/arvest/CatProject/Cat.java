@@ -7,7 +7,7 @@ private String name;
 private String gender;
 private int age;
 double weight;
-//Boolean isAMouser;
+boolean isAMouser;//test
 
 	public Cat(String name, String gender, int age, double weight) {
 		// TODO Auto-generated constructor stub
