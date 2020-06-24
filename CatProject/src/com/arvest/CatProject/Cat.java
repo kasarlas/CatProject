@@ -7,9 +7,10 @@ private String name;
 private String gender;
 private int age;
 double weight;
-boolean isAMouser;
+//boolean isAMouser;
+private boolean isAMouser = true;
 
-	public Cat(String name, String gender, int age, double weight) {
+	public Cat(String name, String gender, int age, double weight, boolean isAMouser) {
 		// TODO Auto-generated constructor stub
 		//Cat(String string, String string2, int i) not a good variables
 		//Constructor
@@ -17,7 +18,7 @@ boolean isAMouser;
 		this.gender = gender;
 		this.age = age;
 		this.weight = weight;
-		//this.isAMouser = isAMouser;
+		this.isAMouser = isAMouser;
 	
 		
 	}
@@ -49,14 +50,8 @@ boolean isAMouser;
 //		}
 
 
-//	public boolean isAMouser(Boolean mouser) {
-//	
-//		// TODO Auto-generated method stub
-//		if (mouser = true)
-//			System.out.println("Yes");
-//		else{
-//			System.out.println("Yes");
-//		}
-//		return this.isAMouser(mouser);
+	public boolean isAMouser(Boolean mouser) {
+		return this.isAMouser(mouser);
 	}
+}
 

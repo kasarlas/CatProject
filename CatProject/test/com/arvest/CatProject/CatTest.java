@@ -11,7 +11,7 @@ public class CatTest {
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		felix = new Cat("Felix", "male", 6, 10.2);
+		felix = new Cat("Felix", "male", 6, 10.2, true);
 		
 	}
 
