@@ -2,6 +2,7 @@ package com.arvest.CatProject;
 
 import static org.junit.Assert.*;
 
+import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -25,12 +26,7 @@ public class CatTest {
 		assertNotEquals(7, felix.getAge());
 		//assertEquals(10, felix.getWeight());
 		System.out.println("Cat Name is " + felix.getName());
-		System.out.println("Felix age is " + felix.getAge());
-		System.out.println("Felix gender is " + felix.getGender());
-		System.out.println("Felix Weight is " + felix.getWeight());
-			
-	}
-	
+
 	}
 
-
+}

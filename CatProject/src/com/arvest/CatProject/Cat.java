@@ -3,12 +3,11 @@ package com.arvest.CatProject;
 public class Cat {
 	
 	//variable
-private String name;
-private String gender;
-private int age;
+public String name;
+public String gender;
+public int age;
 double weight;
-//boolean isAMouser;
-private boolean isAMouser = true;
+public boolean isAMouser = true;
 
 	public Cat(String name, String gender, int age, double weight, boolean isAMouser) {
 		// TODO Auto-generated constructor stub
@@ -19,8 +18,7 @@ private boolean isAMouser = true;
 		this.age = age;
 		this.weight = weight;
 		this.isAMouser = isAMouser;
-	
-		
+			
 	}
 
 	public String getName() {
@@ -42,16 +40,9 @@ private boolean isAMouser = true;
 		// TODO Auto-generated method stub
 		return this.weight;
 		}
-//	public void thisCatIsAMouser(Boolean mouser){
-//		if (mouser == true)
-//			System.out.println("yes");
-//		else {
-//			System.out.println("No");
-//		}
 
-
-	public boolean isAMouser(Boolean mouser) {
-		return this.isAMouser(mouser);
+	public boolean isAMouser() {
+		return this.isAMouser;
 	}
 }
 
