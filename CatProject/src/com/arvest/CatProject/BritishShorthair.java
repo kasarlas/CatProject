@@ -7,7 +7,7 @@ public class BritishShorthair extends Cat {
 		super(name, gender, age, weight, isAMouser);//The super keyword refers to superclass (parent) objects.
 	}
 
-	void meow(int numTimes) {
+	public void meow(int numTimes) {
 		for (int i = 0; i < numTimes; i++) {
 			System.out.println(this.name + " Meow " + i);
 		}

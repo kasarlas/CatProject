@@ -53,10 +53,27 @@ public boolean isAMouser = true;
 		}
 		return this.isAMouser;
 	}
+	
 	public void jump(int numTimes){
 		for (int i = 0; i < numTimes; i++) {
 			System.out.println(this.name+" Jump"+" Everyday");
 		}
 	}
-}
+		
+		public void meow(int numTimes){
+			for(int i=0; i<numTimes; i++){
+				System.out.println("Meow");
+			}
+		}
+		public  String[] meow(String string, int size){
+			String[] strings = new String[size];
+					for (int i=0; i<size; i++){
+						strings[i] = string;
+					}
+			
+			return strings;
+		}
+		
+	}
+
 

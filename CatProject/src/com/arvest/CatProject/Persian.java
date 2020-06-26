@@ -7,9 +7,11 @@ public class Persian extends Cat {
 		super(name, gender, age, weight, isAMouser);
 	}
 
-	void meow(int numTimes) {
+	public void meow(int numTimes) {
 		for (int i = 0; i < numTimes; i++) {
 			System.out.println("Cat " + this.name+" is " + i);
 		}
+		
 	}
+	
 }

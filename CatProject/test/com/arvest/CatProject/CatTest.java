@@ -45,4 +45,14 @@ public class CatTest {
 		assertFalse(felix1.isAMouser());
 
 	}
+	@Test
+	public void meow_givenStringandSize_shouldReturnarrayofString(){
+		int length =10;
+		String catSez = "meow";
+		String[] strings = felix.meow(catSez, length);
+		assertEquals(length, strings.length);
+		for(int i=0; i<length; i++){
+		assertEquals(catSez, strings[1]);
+	}	
+	}
 }
