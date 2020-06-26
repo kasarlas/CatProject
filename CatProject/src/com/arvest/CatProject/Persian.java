@@ -9,7 +9,7 @@ public class Persian extends Cat {
 
 	void meow(int numTimes) {
 		for (int i = 0; i < numTimes; i++) {
-			System.out.println("Persian Meow " + i);
+			System.out.println("Cat " + this.name+" is " + i);
 		}
 	}
 }

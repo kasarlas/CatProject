@@ -17,10 +17,13 @@ public class BritishShorthairTest {
 	@Test
 	public void testMeow() {
 		sam.meow(10);
-//		fail("Not yet implemented");
-		assertEquals("Sam", sam.getName());
-		assertTrue(sam.isAMouser());
-		assertFalse(sam1.isAMouser());
+
+	}
+	@Test
+	public void test1(){
+	assertEquals("Sam", sam.getName());
+	assertTrue(sam.isAMouser());
+	assertFalse(sam1.isAMouser());
 	}
 
 }

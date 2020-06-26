@@ -22,27 +22,41 @@ public boolean isAMouser = true;
 	}
 
 	public String getName() {
+		System.out.println("Cat Name is "+this.name);
 		// TODO Auto-generated method stub
 		return this.name;
 	}
 
 	public String getGender() {
+		System.out.println(this.name +" is a "+ this.gender);
 		// TODO Auto-generated method stub
 		return this.gender;
 	}
 
 	public int getAge() {
+		System.out.println("Cat "+this.name +" is "+ this.age);
 		// TODO Auto-generated method stub
 		return this.age;
 	}
 
 	public double getWeight() {
+		System.out.println("Cat "+this.name +" weight is "+ this.weight);
 		// TODO Auto-generated method stub
 		return this.weight;
 		}
 
 	public boolean isAMouser() {
+		if (isAMouser){
+		System.out.println(this.name +" is a "+ "Cat");
+		}else {
+		System.out.println(this.name +" is not a "+ "Cat");
+		}
 		return this.isAMouser;
+	}
+	public void jump(int numTimes){
+		for (int i = 0; i < numTimes; i++) {
+			System.out.println(this.name+" Jump"+" Everyday");
+		}
 	}
 }
 

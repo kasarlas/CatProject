@@ -15,7 +15,6 @@ public class PersianTest {
 	@Test
 	public void testMeow() {
 		susan.meow(10);
-//		fail("Not yet implemented");
 		assertEquals("Susan", susan.getName());
 		assertEquals(10.2, susan.getWeight(), 0);//we have to use delta
 	}
